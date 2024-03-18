@@ -1,0 +1,20 @@
+.custom-header {
+    display: flex;
+    justify-content: flex-end; /* Alinhar ao lado direito */
+    align-items: center; /* Centralizar verticalmente */
+    padding: 0 50px; /* Adicionar algum espaçamento dos lados */
+}
+
+.custom-message-header {
+    margin-right: 60px;
+}
+
+.user-icon {
+    margin-bottom: 20px;
+    width: 30px; /* Ajuste para o tamanho desejado */
+    height: 30px; /* Faça a altura igual à largura para um círculo perfeito */
+    border-radius: 50%; /* Isso faz a imagem ficar redonda */
+    object-fit: cover; /* Isto garante que a imagem cubra toda a área do círculo */
+    background-color: white; /* Mantém a cor de fundo como branco */
+
+}
